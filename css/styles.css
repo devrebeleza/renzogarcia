@@ -312,6 +312,14 @@ nav ul li {
   height: 2.5rem;
 }
 
+.displayOn {
+  display: inline;
+}
+
+.displayOff {
+  display: none;
+}
+
 /* Footer */
 footer {
   background-color: var(--primary-color);
