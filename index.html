@@ -300,7 +300,11 @@ of Simple CSS Waves-->
       <h2>Ponte en contacto Conmigo</h2>
       <div class="contact-form-container">
         <div class="contact-form">
-          <form action="https://formspree.io/f/xyylngw" method="POST">
+          <!-- <form action="https://formspree.io/f/xyylngw" method="POST"> -->
+          <form
+            action="https://formsubmit.co/2e31f34a130d6c28598c5c99af6383e4"
+            method="POST"
+          >
             <div class="form-control">
               <label for="name">Nombre (*)</label>
               <input
@@ -335,6 +339,17 @@ of Simple CSS Waves-->
                 required
               ></textarea>
             </div>
+            <input
+              type="hidden"
+              name="_subject"
+              value="Mensaje desde renzogarcia Portfolio!"
+            />
+            <input
+              type="hidden"
+              name="_autoresponse"
+              value="¡Gracias por contactarme! En breve responderé a tu mensaje”"
+            />
+            <input type="hidden" name="_template" value="table" />
             <input
               type="submit"
               value="Enviar"
