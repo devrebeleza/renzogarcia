@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/wave.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <title>Renzo Garcia - Portfolio</title>
+  </head>
+  <body>
+    <!-- NavBar     -->
+    <nav>
+      <h1>
+        RENZO GARCIA
+        <img
+          src="icons/icons8-desarrollador-48.png"
+          alt=""
+          loading="lazy"
+          class="socicon"
+        />
+      </h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">Sobre Mí</a></li>
+        <li><a href="#skills" class="nav-link">Habilidades</a></li>
+        <li><a href="#projects" class="nav-link">Proyectos</a></li>
+        <li><a href="#contact" class="nav-link">Contacto</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <!--Hey! This is the original version
+of Simple CSS Waves-->
+
+    <div class="header">
+      <!--Content before waves-->
+      <div class="inner-header flex">
+        <!-- Hero Section -->
+        <section class="hero" id="about">
+          <img
+            src="images/apple-gfb782aef6_1920.jpg"
+            alt="jane-doe"
+            loading="lazy"
+            class="hero-img"
+          />
+          <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">Sobre mí</h2>
+            <p class="bio-text">
+              Hola y Bienvenido! <br />
+              Mi nombre es <b> Renzo García </b>, soy un loco de la tecnología y
+              del basquet. Mi fuerte es asistir y resolver situaciones de toda
+              índole. Por ese motivo es que, a lo largo de mi vida laboral, he
+              aprendido una gran variedad de herramientas, lenguajes y
+              metodologías. Siempre estoy dispuesto a innovar y aplicar las
+              mejores prácticas.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <!--Waves Container-->
+      <div>
+        <svg
+          class="waves"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28"
+          preserveAspectRatio="none"
+          shape-rendering="auto"
+        >
+          <defs>
+            <path
+              id="gentle-wave"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            />
+          </defs>
+          <g class="parallax">
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="0"
+              fill="rgba(255,255,255,0.7"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="3"
+              fill="rgba(255,255,255,0.5)"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="5"
+              fill="rgba(255,255,255,0.3)"
+            />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+          </g>
+        </svg>
+      </div>
+      <!--Waves end-->
+    </div>
+    <!--Header ends-->
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>Mas Sobre mí</h2>
+      <p>
+        Mi título dice Licenciado en Ciencias de la Computación. Me recibí hace
+        unos años en la Universidad Nacional del Comahue. Trabajo hace 12 años
+        en tecnología en un lugar donde debo realizar Administración de
+        Servidores, de Base de Datos, desarrollo de nuevas funcionalidades,
+        corrección de errores, realizar Capacitaciones y mucho mas...
+      </p>
+      <p>
+        Amante del basquet y de los deportes grupales en general. Inicié Basquet
+        a los 11 años y nuncá más lo solté, muchas de las aptitudes y valores
+        que formé tienen mucho que ver con este deporte.
+      </p>
+      <p>
+        Soy una persona a la que le gusta adquirir nuevas habilidades y
+        fortalecer las existentes. En constante estudio y definiendo mi camino
+        paso a paso en está profesión tan gratificante.
+      </p>
+    </section>
+
+    <!-- Skill Section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">
+        Habilidades
+        <h4>(algunas)</h4>
+      </h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="icons/skills/icons8-logo-de-oracle.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="icons/skills/icons8-oracle-pl-sql (1).svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="icons/skills/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="icons/skills/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="icons/skills/icons8-bootstrap.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="icons/skills/icons8-reactjs.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="icons/skills/icons8-graphql.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="icons/skills/icons8-github.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Algunos de mis proyectos recientes</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <a
+            href="https://web-evarsa.herokuapp.com/"
+            target="_blank"
+            class="project-link"
+          >
+            <img
+              src="images/CRUD_PHP_Evarsa.PNG"
+              alt="evarsa-crud"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">CRUD Evarsa</h3>
+          </a>
+          <p class="project-details">
+            Primer Aplicación web desarrollada con:
+            <em>JavaScript Vanilla</em>, <em>Bootstrap</em>, <em>PHP</em> y base
+            de datos <em>MariaDB</em>. <br />
+            Contiene un tablero de Administración con todas las funcionalidades
+            CRUD. <br />
+            Desplegada en Heroku
+            <br />
+            <br />
+            <a
+              href="https://www.youtube.com/watch?v=0JBvuEEQ4yM&ab_channel=DevReBeleza"
+              >Video Demostrativo</a
+            >
+          </p>
+        </div>
+        <div class="project-container project-card">
+          <a
+            href="https://super-alkemy-react.vercel.app/"
+            target="_blank"
+            class="project-link"
+          >
+            <img
+              src="images/Alkemy_React_JS.PNG"
+              alt="alkemy-superheros"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">SuperHeros</h3>
+          </a>
+          <p class="project-details">
+            Aplicación desarrollada en <em>ReactJS</em> y <em>Bootstrap</em> la
+            cual consume datos utilizando la librería <em>Axios</em> de
+            <a href="https://www.superheroapi.com/">API Superhero</a>. <br />
+            Esta aplicación me permitió ingresar al taller de Aceleración de
+            <a href="https://www.alkemy.org/">ALKEMY</a>
+            Job Ready. <br />
+            Desplegada con Vercel
+          </p>
+        </div>
+        <div class="project-container project-card">
+          <a
+            href="https://es.wix.com/website-template/view/html/1936"
+            target="_blank"
+            class="project-link"
+          >
+            <img
+              src="images/rick_and_morty_NextJS.PNG"
+              alt="rick-and-morty"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Rick & Morty</h3>
+          </a>
+          <p class="project-details">
+            Aplicación web desarrollada utilizando el framework
+            <em>NextJS</em> y <em>Styled Components</em> para los estílos, la
+            cual consume información con <em>Axios</em> del endpoint
+            <a href="https://rickandmortyapi.com/graphql">Rick & Morty</a>
+            implementado en <em>GraphQL</em> de
+            <br />
+            Desplegada en Heroku
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2>Ponte en contacto Conmigo</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylngw" method="POST">
+            <div class="form-control">
+              <label for="name">Nombre (*)</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder=""
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email (*)</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder=""
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Mensaje (*)</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder=""
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Enviar"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social account - Fixed to the right -->
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/renzogarcia/" target="_blank"
+        ><img
+          class="socicon"
+          src="icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+      /></a>
+      <a href="https://github.com/devrebeleza" target="_blank"
+        ><img
+          class="socicon"
+          src="icons/icons8-github.gif"
+          alt="Github"
+          loading="lazy"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        class="socicon up-arrow"
+        src="icons/icons8-upward-arrow.gif"
+        alt="scroll-up"
+    /></i>
+
+    <!-- Footer Section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a
+          href="https://www.youtube.com/channel/UCHCSzKp_v4RKlsiVsGw9Teg"
+          target="_blank"
+          >Renzo Garcia (devReBeleza)</a
+        >
+      </p>
+    </footer>
+
+    <!-- Ion Icon Scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
