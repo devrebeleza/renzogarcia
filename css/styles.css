@@ -174,6 +174,32 @@ nav ul li {
   transition: transform 0.7s;
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  opacity: 75%;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: -5px;
+  left: 41px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 .icon-card:hover {
   transform: scale(1.2);
 }
