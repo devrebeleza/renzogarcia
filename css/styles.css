@@ -296,6 +296,19 @@ nav ul li {
   color: var(--hover-color);
 }
 
+.download-cv {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: var(--bold-font);
+  transition: var(--transition);
+  color: var(--primary-color);
+}
+
 /* Socials */
 .socials {
   display: flex;
