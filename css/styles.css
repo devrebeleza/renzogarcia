@@ -114,7 +114,7 @@ nav ul li {
   padding: 0.625rem;
   border-radius: 6px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
-  text-shadow: 8px 9px 4px var(--primary-color);
+  text-shadow: 5px 5px 5px var(--primary-color);
 }
 
 .bio h2 {
@@ -171,6 +171,11 @@ nav ul li {
   box-shadow: 0 3px 10px var(--secondary-shadow);
   padding: 20px;
   margin: 10px;
+  transition: transform 0.7s;
+}
+
+.icon-card:hover {
+  transform: scale(1.2);
 }
 
 /* Projects */
@@ -220,6 +225,11 @@ nav ul li {
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
+  transition: transform 0.5s;
+}
+
+.project-card:hover {
+  transform: scale(1.1);
 }
 
 /* Contact */
@@ -440,5 +450,18 @@ footer {
 
   .contact-form-container {
     max-width: 17.75rem;
+  }
+}
+
+/* responsive 1047px */
+@media (mind-width: 768px) and (max-width: 1047px) {
+  /*changes reflects on screen with a width of 420px and below*/
+  .hero img {
+    height: 25.5rem;
+    width: 37.5rem;
+  }
+  .bio {
+    width: 18.3rem;
+    margin-top: 2rem;
   }
 }
