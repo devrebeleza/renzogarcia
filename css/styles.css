@@ -425,7 +425,7 @@ footer {
   }
 
   .hero img {
-    margin-top: 1rem;
+    margin-top: 4rem;
     height: 26.5rem;
     width: 37.5rem;
   }
@@ -473,9 +473,13 @@ footer {
 /* responsive 420px */
 @media screen and (max-width: 420px) {
   /*changes reflects on screen with a width of 420px and below*/
-  .hero img {
+  /* .hero img {
     height: 18.5rem;
     width: 22rem;
+  } */
+  .hero img {
+    height: 14.5rem;
+    width: 20rem;
   }
 
   .bio {
