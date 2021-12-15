@@ -4,11 +4,12 @@
   display: none;
   z-index: 1002;
   overflow: visible;
-  left: 15%;
+  left: 14%;
   position: absolute;
-  transition: 0.7s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 3s ease;
   background: #fff;
-
   justify-content: center;
 }
 
@@ -16,7 +17,7 @@
   width: 100%;
   margin: 0 auto;
   opacity: 1;
-  transition: 0.7s ease;
+  transition: all 0.7s ease;
 }
 
 #openVideo {
