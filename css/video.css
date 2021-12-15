@@ -8,6 +8,8 @@
   position: absolute;
   transition: 0.7s ease;
   background: #fff;
+
+  justify-content: center;
 }
 
 #headerPopup iframe {
@@ -33,19 +35,4 @@
   -moz-opacity: 0.8;
   opacity: 0.8;
   filter: alpha(opacity=80);
-}
-
-#light {
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  max-width: 600px;
-  max-height: 360px;
-  margin-left: -300px;
-  margin-top: -180px;
-  border: 2px solid #fff;
-  background: #fff;
-  z-index: 1002;
-  overflow: visible;
 }

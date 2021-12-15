@@ -30,7 +30,7 @@ navLink.forEach((link) =>
   })
 );
 
-// video frame 3
+// video frame
 window.document.onkeydown = function (e) {
   if (!e) {
     e = event;
@@ -42,7 +42,7 @@ window.document.onkeydown = function (e) {
 
 function open_video() {
   var lightBoxVideo = document.getElementById('iframeVideo');
-  document.getElementById('headerPopup').style.display = 'inline';
+  document.getElementById('headerPopup').style.display = 'flex';
   lightBoxVideo.src = 'https://www.youtube.com/embed/0JBvuEEQ4yM';
 
   document.getElementById('fade').style.display = 'block';
