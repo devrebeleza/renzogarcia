@@ -8,6 +8,7 @@
     <!--CSS Styles -->
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/wave.css" />
+    <link rel="stylesheet" href="css/video.css" />
 
     <!-- Favicons -->
     <link
@@ -136,11 +137,11 @@ of Simple CSS Waves-->
     <section class="more-about">
       <h2>Mas Sobre mí</h2>
       <p>
-        Mi título dice Licenciado en Ciencias de la Computación. Me recibí hace
-        unos años en la Universidad Nacional del Comahue. Trabajo hace 12 años
-        en tecnología en un lugar donde debo realizar Administración de
-        Servidores, de Base de Datos, desarrollo de nuevas funcionalidades,
-        corrección de errores, realizar Capacitaciones y mucho mas...
+        Me recibí de Licenciado en Ciencias de la Computación en la Universidad
+        Nacional del Comahue. Trabajo hace 12 años en tecnología en un lugar
+        donde realizo variadas tareas, como, Administración de Servidores, de
+        Base de Datos, desarrollo de nuevas funcionalidades, corrección de
+        errores, doy capacitaciones y mucho mas...
       </p>
       <p>
         Amante del basquet y de los deportes grupales en general. Inicié Basquet
@@ -156,10 +157,7 @@ of Simple CSS Waves-->
 
     <!-- Skill Section -->
     <section class="skills" id="skills">
-      <h2 class="skill-header">
-        Habilidades
-        <h4>(algunas)</h4>
-      </h2>
+      <h2 class="skill-header">Habilidades Principales</h2>
 
       <div class="skills-wrapper">
         <div class="first-set animate__animated animate__pulse">
@@ -263,12 +261,27 @@ of Simple CSS Waves-->
             Desplegada en Heroku
             <br />
             <br />
-            <a
-              href="https://www.youtube.com/watch?v=0JBvuEEQ4yM&ab_channel=DevReBeleza"
+            <a id="openVideo" onclick="open_video();" target="videoFrame"
               >Video Demostrativo</a
             >
           </p>
         </div>
+        <!-- video test 2 -->
+        <div id="fade" onClick="close_video();"></div>
+        <div id="headerPopup">
+          <iframe
+            name="videoFrame"
+            id="iframeVideo"
+            src="https://www.youtube.com/embed/0JBvuEEQ4yM"
+            title="Demo YouTube APP"
+            width="854"
+            height="480"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <!-- video test 2 -->
         <div class="project-container project-card">
           <a
             href="https://super-alkemy-react.vercel.app/"
@@ -309,8 +322,9 @@ of Simple CSS Waves-->
           </a>
           <p class="project-details">
             Aplicación web desarrollada utilizando el framework
-            <em>NextJS</em> y <em>Styled Components</em> para los estílos, la
-            cual consume información con <em>Axios</em> del endpoint
+            <em>NextJS</em>, <em>Styled Components</em> para los estílos,
+            TypeScript para darle tipado a los datos. Está app consume
+            información con <em>Axios</em> del endpoint
             <a href="https://rickandmortyapi.com/graphql">Rick & Morty</a>
             implementado en <em>GraphQL</em>
             <br />
@@ -319,6 +333,18 @@ of Simple CSS Waves-->
         </div>
       </div>
     </section>
+    <!-- video test 1 -->
+    <!--  <div class="video">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/0JBvuEEQ4yM"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div> -->
 
     <!-- Contact Section -->
     <section class="contact" id="contact">
