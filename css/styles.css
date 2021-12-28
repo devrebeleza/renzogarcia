@@ -83,6 +83,7 @@ nav ul {
 
 nav ul li {
   font-weight: var(--bold-font);
+  padding-top: 9px;
 }
 
 .burger-menu {
@@ -324,8 +325,8 @@ nav ul li {
 
 .download-cv {
   width: 100%;
-  padding: 10px;
-  margin: 10px 0;
+  padding: 7px;
+  margin: -8px 0 -9px;
   background-color: #fff;
   border: 2px solid var(--primary-color);
   border-radius: 5px;
@@ -333,6 +334,17 @@ nav ul li {
   font-weight: var(--bold-font);
   transition: var(--transition);
   color: var(--primary-color);
+  display: inline;
+}
+
+.download-cv:hover {
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+.download-cv a:hover {
+  color: var(--hover-color) !important;
+  border-bottom: 0px solid var(--secondary-color);
 }
 
 /* Socials */
@@ -347,6 +359,10 @@ nav ul li {
 .socicon {
   width: 2rem;
   height: 2rem;
+}
+
+.icon-dev {
+  margin: -3px;
 }
 
 /* Scroll up */
@@ -406,9 +422,13 @@ footer {
   }
 
   nav ul li {
-    margin: 8px;
+    margin: 0px;
+    padding-top: 2px;
   }
 
+  .download-cv {
+    margin: -8px 0 -8px;
+  }
   .burger-menu {
     display: block;
   }
