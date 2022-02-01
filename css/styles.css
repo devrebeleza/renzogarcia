@@ -274,6 +274,7 @@ section {
 /* Contact */
 .contact {
   margin-top: 2rem;
+  scroll-margin-top: 5.8em;
 }
 .contact h2 {
   text-align: center;
