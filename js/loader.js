@@ -2,7 +2,7 @@
 /* loader animation */
 
 const loader = document.querySelector('.loader')
-const main = document.querySelector('.main')
+const main = document.querySelector('.main') 
 
 function init(){
     setTimeout(() => {
@@ -10,7 +10,8 @@ function init(){
         loader.style.display = 'none';
 
         main.style.display = 'block';
-        setTimeout(() => (main.style.opacity = 1),50 )
+        setTimeout(() => (main.style.opacity = 1,
+            document.body.style.backgroundColor= "#fff"),50 )
     },2000)
 }
 

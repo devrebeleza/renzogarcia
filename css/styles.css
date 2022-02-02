@@ -484,7 +484,7 @@ footer {
   /* more about */
   .more-about {
     margin-top: 2rem;
-    padding: 1rem 14rem;
+    padding: 1rem 6rem;
   }
 
   .more-about h2 {
@@ -543,7 +543,7 @@ footer {
 }
 
 /* responsive 1047px */
-@media (mind-width: 768px) and (max-width: 1047px) {
+@media (min-width: 728px) and (max-width: 1047px) {
   /*changes reflects on screen with a width of 420px and below*/
   .hero img {
     height: 25.5rem;
@@ -552,5 +552,8 @@ footer {
   .bio {
     width: 18.3rem;
     margin-top: 2rem;
+  }
+  .more-about{
+    padding: 1rem 10rem;
   }
 }
