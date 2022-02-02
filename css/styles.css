@@ -132,7 +132,7 @@ nav ul li {
 /* More About */
 .more-about {
   background-color: var(--bg-color);
-  padding: 1rem 6rem;
+  padding: 1rem 14rem;
 }
 
 .more-about h2 {
@@ -378,6 +378,16 @@ section {
   margin: -3px;
 }
 
+.icon-flag {
+  margin: -3px;
+  vertical-align: middle;
+}
+
+#language-anchor {
+  display: inline-block;
+  margin: -5px 0px 0px;
+}
+
 /* Scroll up */
 .scroll-up {
   position: fixed;
@@ -432,6 +442,7 @@ footer {
     text-align: center;
     transform: translateX(120%);
     transition: transform 0.5s ease-in;
+    padding: inherit;
   }
 
   nav ul li {
@@ -472,7 +483,7 @@ footer {
   /* more about */
   .more-about {
     margin-top: 2rem;
-    padding: 1rem 3.5rem;
+    padding: 1rem 14rem;
   }
 
   .more-about h2 {
