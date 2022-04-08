@@ -48,6 +48,7 @@ a:hover {
 
 body {
   font-family: var(--font-family);
+  background-color: rgb(26, 25, 26);
 }
 
 /* Nav */
@@ -115,8 +116,8 @@ nav ul li {
   width: 25rem;
   padding: 0.625rem;
   border-radius: 6px;
-  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
-  text-shadow: 5px 5px 5px var(--primary-color);
+  box-shadow: 0px 0px 1px 1px var(--primary-shadow);
+ /* text-shadow: 5px 5px 5px var(--primary-color);*/
 }
 
 .bio h2 {
@@ -132,7 +133,7 @@ nav ul li {
 /* More About */
 .more-about {
   background-color: var(--bg-color);
-  padding: 1rem 6rem;
+  padding: 1rem 14rem;
 }
 
 .more-about h2 {
@@ -152,6 +153,7 @@ nav ul li {
   margin: auto;
   text-align: center;
   margin-top: 2.5rem;
+  scroll-margin-top: 6.8em;
 }
 
 .skill-header {
@@ -211,6 +213,7 @@ nav ul li {
   background-color: var(--bg-color);
   padding: 32px 0;
   margin-top: 2rem;
+  scroll-margin-top: 5.8em;
 }
 
 .project-pic {
@@ -223,7 +226,16 @@ nav ul li {
   align-items: center;
   justify-content: center;
 }
-
+section {
+  display: block;
+}
+.container-title{
+  width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .projects-title {
   text-align: center;
   margin-bottom: 1rem;
@@ -263,6 +275,7 @@ nav ul li {
 /* Contact */
 .contact {
   margin-top: 2rem;
+  scroll-margin-top: 6.8em;
 }
 .contact h2 {
   text-align: center;
@@ -366,6 +379,16 @@ nav ul li {
   margin: -3px;
 }
 
+.icon-flag {
+  margin: -3px;
+  vertical-align: middle;
+}
+
+#language-anchor {
+  display: inline-block;
+  margin: -5px 0px 0px;
+}
+
 /* Scroll up */
 .scroll-up {
   position: fixed;
@@ -420,6 +443,7 @@ footer {
     text-align: center;
     transform: translateX(120%);
     transition: transform 0.5s ease-in;
+    padding: inherit;
   }
 
   nav ul li {
@@ -443,10 +467,11 @@ footer {
     margin-top: -4rem;
     flex-direction: column;
     gap: 0;
+    scroll-margin-top: 5.8em;
   }
 
   .hero img {
-    margin-top: 4rem;
+    margin-top: 6rem;
     height: 26.5rem;
     width: 37.5rem;
   }
@@ -459,7 +484,7 @@ footer {
   /* more about */
   .more-about {
     margin-top: 2rem;
-    padding: 1rem 3.5rem;
+    padding: 1rem 4rem;
   }
 
   .more-about h2 {
@@ -518,7 +543,7 @@ footer {
 }
 
 /* responsive 1047px */
-@media (mind-width: 768px) and (max-width: 1047px) {
+@media (min-width: 728px) and (max-width: 1047px) {
   /*changes reflects on screen with a width of 420px and below*/
   .hero img {
     height: 25.5rem;
@@ -527,5 +552,8 @@ footer {
   .bio {
     width: 18.3rem;
     margin-top: 2rem;
+  }
+  .more-about{
+    padding: 1rem 10rem;
   }
 }
