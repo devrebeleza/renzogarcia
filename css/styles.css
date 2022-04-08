@@ -30,7 +30,7 @@ html {
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /*  box-sizing: border-box; */
 }
 
 ul {
@@ -353,7 +353,7 @@ nav ul li {
   display: flex;
   flex-direction: column;
   position: fixed;
-  right: 1%;
+  right: 1.8%;
   bottom: 50%;
 }
 
@@ -369,7 +369,7 @@ nav ul li {
 /* Scroll up */
 .scroll-up {
   position: fixed;
-  right: 0.5%;
+  right: 1.8%;
   bottom: 3%;
   cursor: pointer;
 }
@@ -415,7 +415,7 @@ footer {
     left: 10%;
     width: 80%; */
     top: 90px;
-    left: 55%;
+    left: 60%;
     width: 39%;
     text-align: center;
     transform: translateX(120%);
